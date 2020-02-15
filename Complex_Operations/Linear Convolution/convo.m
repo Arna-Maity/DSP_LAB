@@ -13,7 +13,6 @@ len = length(x1) + length(x2) - 1;
 conv_num = st1 + st2 + len - 1;
 n = linspace(st1 + st2,conv_num,len);
 
-y = [];
 mat = zeros(length(x1),length(x2));
 
 for i = 1:length(x1)
@@ -33,5 +32,38 @@ for i = 2:(len+1)
         end
     end
       y(i-1) = sum_mat;
-   end
+end
+  
+% Open a new figure.
+figure;
+subplot(3,1,1);
+hold on;
+stem(n1,x1);
+xlim([min(n1)-1 max(n1)+1]);
+ylim([min(x1)-1 max(x1)+1]);
+xlabel('n -->');
+ylabel('Amplitude -->');
+title('x1 sequence');
+hold off;
+
+subplot(3,1,2);
+hold on;
+stem(n2,x2);
+xlim([min(n2)-1 max(n2)+1]);
+ylim([min(x2)-1 max(x2)+1]);
+xlabel('n -->');
+ylabel('Amplitude -->');
+title('x2 sequence');
+hold off;
+
+subplot(3,1,3);
+hold on;
+stem(n,y);
+xlim([min(n)-1 max(n)+1]);
+ylim([min(y)-1 max(y)+1]);
+xlabel('n -->');
+ylabel('Amplitude -->');
+title('Convolved sequence');
+hold off;
+
 end

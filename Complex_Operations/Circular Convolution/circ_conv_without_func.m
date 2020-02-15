@@ -23,6 +23,8 @@ for i=1:sz
     mat =[mat (circshift(y1,[0,(i-1)]))'];
 end
 
+y = (mat*(y2'))';
+
 subplot(3,1,1);
 stem(y1);
 hold on;
@@ -43,7 +45,6 @@ xlabel('n -->');
 ylabel('Amplitude -->');
 hold off;
 
-y = (mat*(y2'))';
 subplot(3,1,3);
 stem(y);
 hold on;

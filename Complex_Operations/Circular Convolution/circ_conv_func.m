@@ -1,6 +1,8 @@
 function y = circ_conv_func(x1,x2,sz)
 % l = length(x1)+length(x2);
 y = cconv(x1,x2,sz);
+
+figure;
 subplot(3,1,1);
 stem(x1);
 hold on;
