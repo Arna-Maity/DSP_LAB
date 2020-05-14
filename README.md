@@ -3,6 +3,11 @@ This repo contains MATLAB script files made as part of DSP LAB
 
 ## Design of an **Audio Crossover Unit** using *MATLAB & Simulink*.
 
+### Requirements 
+
+My project requires the following MATLAB toolboxes to run successfully.
+1. DSP Toolbox.
+2. Audio Systems Toolbox.
 
 ### Screenshots
 
