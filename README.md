@@ -8,7 +8,7 @@ This repo contains MATLAB script files made as part of DSP LAB
 
 Implementation of the design in *Simulink*.
 
-![](docs/)
+![](docs/images/AC_SIMULINK_MODEL.PNG)
 
 
 Impulse Response of the FIR Low Pass Filter (LPF)
