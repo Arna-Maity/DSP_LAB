@@ -13,24 +13,24 @@ Implementation of the design in *Simulink*.
 
 Impulse Response of the FIR Low Pass Filter (LPF)
 
-![](docs/IR_LPF.PNG)
+![](docs/images/IR_LPF.PNG)
 
 Magnitude and Phase Response of the LPF:
 
-![](docs/MPR_LPF.PNG)
+![](docs/images/MPR_LPF.PNG)
 
 Impulse Response of the FIR Band Pass Filter (BPF)
 
-![](docs/IR_BPF.PNG)
+![](docs/images/IR_BPF.PNG)
 
 Magnitude and Phase Response of the BPF:
 
-![](docs/MPR_BPF.PNG)
+![](docs/images/MPR_BPF.PNG)
 
 Impulse Response of the FIR High Pass Filter (HPF)
 
-![](docs/IR_HPF.PNG)
+![](docs/images/IR_HPF.PNG)
 
 Magnitude and Phase Response of the HPF:
 
-![](docs/MPR_HPF.PNG)
+![](docs/images/MPR_HPF.PNG)
