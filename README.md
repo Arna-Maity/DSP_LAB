@@ -34,3 +34,14 @@ Impulse Response of the FIR High Pass Filter (HPF)
 Magnitude and Phase Response of the HPF:
 
 ![](docs/images/MPR_HPF.PNG)
+
+Implementation of the design in *MATLAB*.
+
+**IMPORTANT NOTE:**
+![](docs/images/NOTE.PNG)
+
+My implementation of the above Simulink Model is based on the use of MATLAB System Objects.
+
+Below is a list of references which i referred to while making the project and will also help you in understanding my code.
+
+1. ![System Objects](https://www.mathworks.com/help/matlab/system-objects.html)
